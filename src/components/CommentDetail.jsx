@@ -1,11 +1,11 @@
 import React from "react";
-import faker from "faker";
+// import faker from "faker";
 
-function CommentDetail({ name, text, date }) {
+function CommentDetail({ name, text, date, avatar }) {
   return (
     <div className="comment">
       <a href="/" className="avatar">
-        <img src={faker.image.image()} alt="avatar" />
+        <img src={avatar} alt="avatar" />
       </a>
       <div className="content">
         <a href="/" className="author">
